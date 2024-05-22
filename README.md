@@ -2,7 +2,7 @@
 Making an Blueprint Actor that functions as a button with Event-Dispatcher of Unreal Engine. <br>
 [Event Dispatcher](https://docs.unrealengine.com/4.27/ko/ProgrammingAndScripting/Blueprints/UserGuide/EventDispatcher/) <br>
 
-> Example Button System Image
+> Example Button System Image <br>
 <img src = "https://github.com/JinyeongPark-870/Simple-Button-System-In-UnrealEngine-Blueprint/assets/4387404/8d55b8c5-1fe3-4559-844f-84bb8aeec18f" width = "30%" height = "30%"> <br>
 
 #
