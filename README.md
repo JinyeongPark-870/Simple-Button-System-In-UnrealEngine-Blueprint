@@ -19,6 +19,10 @@ Create the first button actor to start, and bind event(spawning next button) to 
 [Event Dispatcher Binding/Unbinding](https://docs.unrealengine.com/4.27/ko/ProgrammingAndScripting/Blueprints/UserGuide/EventDispatcher/BindingAndUnbinding/) <br>
 When the event is called, it creates a button(or buttons) that spawns next button when it clicked(hit, overlaped, etc), and bind the event for the next action to the event dispatcher of the spawned button. <br>
 This repeated structure allows you to complete the button system. <br>
+<img src = "https://github.com/JinyeongPark-870/Simple-Button-System-In-UnrealEngine-Blueprint/assets/4387404/0dac4473-93cc-43ef-9dd0-a41b01ac2925" width = "50%" height = "50%"> <br>
+
+#
+
 In my example, I destroyed Actor when the next button spawns. When buttons are more than two, I made actor array and managed them. <br>
 In summary, make button actor with event dispatcher calling event. In another actor like GameModeBase, spawn that actor and bind event to event dispatcher which spawns next button actors. Make spawned buttons do same action. <br>
 
