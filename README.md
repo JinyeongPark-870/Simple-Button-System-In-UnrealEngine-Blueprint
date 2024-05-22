@@ -25,13 +25,15 @@ This repeated structure allows you to complete the button system. <br>
 
 In my example, I destroyed Actor when the next button spawns. When buttons are more than two, I made actor array and managed them. <br>
 In summary, make button actor with event dispatcher calling event. In another actor like GameModeBase, spawn that actor and bind event to event dispatcher which spawns next button actors. Make spawned buttons do same action. <br>
+> This is my button actor test with my other project : [How to use Kinect V2 sensor data in UnrealEngine 5](https://github.com/JinyeongPark-870/How-to-use-Kinect-V2-sensor-data-in-UnrealEngine-5) <br>
+<img src = "https://github.com/JinyeongPark-870/Simple-Button-System-In-UnrealEngine-Blueprint/assets/4387404/825632d7-1a2b-4394-9734-e9cc8383fe65" width = "50%" height = "50%"> <br>
+#
 
 
-
-
-
+<!--
 링크
 [제목](주소)
 
 이미지
 <img src = "" width = "50%" height = "50%">
+-->
