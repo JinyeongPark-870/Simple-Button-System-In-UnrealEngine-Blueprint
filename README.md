@@ -2,6 +2,9 @@
 Making an Blueprint Actor that functions as a button with Event-Dispatcher of Unreal Engine. <br>
 [Event Dispatcher](https://docs.unrealengine.com/4.27/ko/ProgrammingAndScripting/Blueprints/UserGuide/EventDispatcher/) <br>
 
+> Example Button System Image
+<img src = "https://github.com/JinyeongPark-870/Simple-Button-System-In-UnrealEngine-Blueprint/assets/4387404/8d55b8c5-1fe3-4559-844f-84bb8aeec18f" width = "50%" height = "50%">
+
 Make and call event dispatcher in the event you want to use as the button click function. <br>
 > In my case, I used static mesh overlap and click event to call event dispatcher. <br>
 <img src = "https://github.com/JinyeongPark-870/Simple-Button-System-In-UnrealEngine-Blueprint/assets/4387404/c20c4ada-c204-4dcb-996a-42791c273e72" width = "90%" height = "90%"> <br>
