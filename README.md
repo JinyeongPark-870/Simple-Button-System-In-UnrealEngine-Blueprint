@@ -4,7 +4,8 @@ Making an Blueprint Actor that functions as a button with Event-Dispatcher of Un
 
 Make and call event dispatcher in the event you want to use as the button click function. <br>
 > In my case, I used static mesh overlap and click event to call event dispatcher. <br>
-<img src = "https://github.com/JinyeongPark-870/Simple-Button-System-In-UnrealEngine-Blueprint/assets/4387404/c20c4ada-c204-4dcb-996a-42791c273e72" width = "50%" height = "50%"> <br>
+<img src = "https://github.com/JinyeongPark-870/Simple-Button-System-In-UnrealEngine-Blueprint/assets/4387404/c20c4ada-c204-4dcb-996a-42791c273e72" width = "70%" height = "70%"> <br>
+
 After that, go to the event graph screen of another Actor(for example, i used GameModeBase Blueprint) managing the button system. <br>
 Spawn an actor according to the flow of the button system in the event graph. <br>
 Create the first button actor to start, and bind event(spawning next button) to be called to the event dispatcher for that button. <br>
